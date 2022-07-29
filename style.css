@@ -1,0 +1,85 @@
+* {
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+   line-height: 15vh;
+    background-color: #7f8c8d;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-weight: 10;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    text-shadow: 0 1px 0 #efefef,
+     0 1px 0 #efefef,
+     0 1px 0 #efefef,
+     0 1px 0 #efefef,
+     0 30px 5px rgba(0, 0, 0, 0.1);
+}
+section{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #95a5a6;
+}
+.gameArea{
+    width: 50%;
+    height: 400px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+    background-color: #34495e;
+    box-shadow: 0 15px 60px -10px rgb(0, 0, 0);
+}
+.grades{
+    display: flex;
+    flex-direction: column;
+}
+.grades input{
+    font-size: large;
+    margin-top: 2rem;
+    background-color:#34495e ;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+input::placeholder{
+    color: white;
+}
+.calculatorDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+button{
+    border: none;
+    background-color: #34495e;
+    color: #cde9eb;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 2rem;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #117077;
+    color: white;
+}
+#showData{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
